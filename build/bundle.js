@@ -80,7 +80,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 document.addEventListener('DOMContentLoaded', function () {
 	// container, boardSize, fps, snakeSize
-	(0, _gameEngine2.default)('snake-game', 10, 10, 5);
+	(0, _gameEngine2.default)('snake-game', 30, 10, 5);
 });
 
 /***/ }),
