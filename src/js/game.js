@@ -14,7 +14,7 @@ export default class Game {
 		// Init entities
 		this.initializeBoard();
 		this.snake = new Snake(boardSize, snakeSize);
-		this.food = new Food(boardSize);
+		this.food = new Food(boardSize, this.snake);
 	}
 
 	initializeBoard() {

@@ -2,5 +2,6 @@ import GameEngine from './js/gameEngine.js';
 import './scss/style.scss';
 
 document.addEventListener('DOMContentLoaded', () => {
-	GameEngine('snake-game', 30, 10, 5);
+	// container, boardSize, fps, snakeSize
+	GameEngine('snake-game', 10, 10, 5);
 });
